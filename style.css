@@ -170,7 +170,7 @@ section .add-date {
   align-items: center;
   gap: 80px;
 }
-#section1 {
+.section1 {
   color: #f00;
   font-family: Inter;
   font-size: 16px;
@@ -178,7 +178,7 @@ section .add-date {
   font-weight: 500;
   line-height: normal;
 }
-#section2 {
+.section2 {
   color: #070211;
   font-family: Merriweather;
   font-size: 40px;
@@ -188,14 +188,12 @@ section .add-date {
   text-transform: capitalize;
   padding-top: 10px;
 }
-#section3 {
+.section3 {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px; /* 160% */
-  padding-top: 15px;
 }
 .img-section {
   border: 10px solid red;
@@ -215,18 +213,164 @@ section .add-date {
   font-weight: 700;
   line-height: normal;
 }
-.last-section2{
-  color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 16px; /* 160% */
-padding-top: 15px;
-
+.last-section2 {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 160% */
+  padding-top: 15px;
 }
-.last-section3{
+.last-section3 {
   width: 70px;
   height: 70px;
   padding-top: 30px;
+}
+/* holidaY section */
+.holiday {
+  margin-top: 70px;
+  text-align: center;
+}
+.holiday .h-head {
+  color: #070211;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.holiday .h-discount {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-bottom: 15px;
+  padding-top: 12px;
+}
+.holiday .h-contain {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 160% */
+}
+
+/* section portfolio */
+.portfolio {
+  margin-top: 70px;
+}
+.row {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.row img {
+  width: 330px;
+  height: 350px;
+  margin-top: 20px;
+}
+.row img:hover {
+  border: #070211 solid;
+  border-radius: 16px;
+  box-shadow: #070211 5px 10px 15px;
+}
+.subscribe {
+  margin-top: 70px;
+  background: rgba(255, 0, 0, 0.05);
+  width: 100%;
+  height: 300px;
+  border-radius: 16px;
+  padding: 50px 0px;
+}
+.subscribe .text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subscribe .text-section img {
+  height: 70px;
+  width: 70px;
+}
+.subscribe .input-section {
+  text-align: center;
+}
+
+.subscribe .input-section {
+  padding: 25px 0px;
+}
+.subscribe .input-section .text {
+  background-color: #fff;
+  padding: 15px 5px;
+  width: 300px;
+  border: none;
+  border-radius: 40px 0px 0px 40px;
+}
+.subscribe .input-section .button {
+  background-color: red;
+  padding: 15px 5px;
+  border: none;
+  width: 100px;
+  color: #fff;
+  margin-left: -5px;
+  border-radius: 0px 40px 40px 0px;
+  cursor: pointer;
+}
+footer {
+  margin-top: 50px;
+  background-color: rgba(7, 2, 17, 1);
+  padding: 100px;
+}
+footer .firstsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.coloum {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 166.667% */
+  padding-bottom: 20px;
+}
+.coloum img{
+  height: 15px;
+  width: 15px;
+}
+footer .link img {
+  width: 50px;
+  height: 50px;
+}
+.link{
+  text-align: center;
+  padding: 50px 0px;
+  letter-spacing: 30px;
+
+}
+.copy-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+.copy-right .copy{
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  padding-bottom: 20px; 
+}
+.copy-right .button{
+  background:transparent;
+  color: #fff;
+  border: none;
+  font-size: Inter ;
+  font-size: 16px;
 }
